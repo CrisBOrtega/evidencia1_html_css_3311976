@@ -8,8 +8,23 @@
 <label>{etiqueta}</label>
 <select>
     <option>Cali</option>
-    <option>Bogotá</option>
+    <option id="bogota">Bogotá</option>
     <option>Medellín</option>
     <option>Cartagena</option>
       
 </select>
+<style>
+    /* estilo de identificador */
+    /* solo aplica a etiquetas */
+    /* que tengan el atributo id */
+    /* con el mismo nombre de id */
+    /* NOTA: solo debe haber un id igual */
+    /* EN TODA LA PAGINA*/
+    #bogota{
+        color:red;
+    }
+    select{
+        border: 2px yellow dotted;
+    }
+    
+</style>

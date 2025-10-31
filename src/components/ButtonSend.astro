@@ -5,6 +5,20 @@
         
     const  etiqueta  = Astro.props.etiqueta;
 ---
-<button>
+<button class="boton-envio">
     {etiqueta}
 </button>
+<style>
+    /* estilos de clase */
+    /* se aplican a los elementos */
+    /* que tengan el atributo class */
+    /* con el mismo nombre de clase */
+    .boton-envio{
+        background-color: #000;
+        color: #fff;
+        width: 100px;
+        height: 40px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+</style>
